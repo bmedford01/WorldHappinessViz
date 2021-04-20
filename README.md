@@ -7,19 +7,22 @@
 * Kelly Rose 
 
 ## Project Description/Outline:
-Utilize two or more datasets to complete ETL and provide an outline of the following:
-* The type of transformation needed for this data (cleaning, joining, filtering, aggregating, etc).
-* The type of final production database to load the data into (relational or non-relational).
-* The final tables or collections that will be used in the production database.
+Your task is to tell a story with Data Visualization 
+* Visualization must include a Python Flask-powered API, HTML/CSS, JavaScript, and at least one database (SQL, MongoDB, SQLite, etc.)
+* Your project should fall into one of the below four tracks:
+* Include at least one JS library
+* Powered by a dataset with at least 100 records
+* Include some level of user-driven interaction
+* Final visualization will have at least three views
 
 ## Datasets:
-Use the following datasets related to Gas prices, unemployment rate and homicide reports.
-* https://www.kaggle.com/mruanova/us-gasoline-and-diesel-retail-prices-19952021
-* https://www.kaggle.com/tunguz/us-monthly-unemployment-rate-1948-present
+Use the following dataset related to 2021 World Happiness, procured from Kaggle. Includes CSV file. 
+* https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021
 
 ## Rough Breakdown of Tasks
-* Finalize datasets to utilize
-* Extract into DataFrames
-* Clean and join the data and determine data points to use
-* Create Database Connection
-* Load Into Database
+* Import CSV into Python to generate flask-powered API
+* Create SQL database and load data 
+* Create HTML and CSS that will display a dashboard page with multiple charts that update from our dataset
+* Create Heatmap with JS Heatmap library
+* Create interactive dropdowns or input box to select different happiness factors (i.e. life expectancy) vs. happiness score and chart those on a scatter plot. 
+* Create bar chart with top 10 countries for a third visualization. 
