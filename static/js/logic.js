@@ -1,7 +1,7 @@
-url = "http://ygroza.com/happiness.json"
+url = "http://ygroza.com/results.json"
 
 d3.json(url).then(function(data) {
-  console.log(data[0].Countryname);
+  console.log(data);
 
   var newCountryName = []
 
@@ -15,7 +15,7 @@ d3.json(url).then(function(data) {
 });
 
 
-// function createFeatures(happinessData) {
+// function createMap(happinessData) {
 
 //   // Define a function we want to run once for each feature in the features array
 //   // Give each feature a popup describing the place and time of the earthquake
@@ -784,6 +784,150 @@ var countries = [
         Happiness_Score: 4.517,
         Rank: "125th of 149",
         location: [31.9522, 35.2332]
+      },
+      {
+        name: "Myanmar",
+        Happiness_Score: 4.426,
+        Rank: "126th of 149",
+        location: [21.9162, 95.9560]
+      },
+      {
+        name: "Jordan",
+        Happiness_Score: 4.395,
+        Rank: "127th of 149",
+        location: [30.5852, 36.2384]
+      },
+      {
+        name: "Chad",
+        Happiness_Score: 4.355,
+        Rank: "128th of 149",
+        location: [15.4542, 18.7322]
+      },
+      {
+        name: "Sri Lanka",
+        Happiness_Score: 4.325,
+        Rank: "129th of 149",
+        location: [7.8731, 80.7718]
+      },
+      {
+        name: "Swaziland",
+        Happiness_Score: 4.308,
+        Rank: "130th of 149",
+        location: [-26.5225, 31.4659]
+      },
+      {
+        name: "Comoros",
+        Happiness_Score: 4.289,
+        Rank: "131st of 149",
+        location: [-11.6455, 43.3333]
+      },
+      {
+        name: "Egypt",
+        Happiness_Score: 4.283,
+        Rank: "132nd of 149",
+        location: [26.8206, 30.8025]
+      },
+      {
+        name: "Ethiopia",
+        Happiness_Score: 4.275,
+        Rank: "133rd of 149",
+        location: [9.1450, 40.4897]
+      },
+      {
+        name: "Mauritania",
+        Happiness_Score: 4.227,
+        Rank: "134th of 149",
+        location: [21.0079, -10.9408]
+      },
+      {
+        name: "Madagascar",
+        Happiness_Score: 4.208,
+        Rank: "135th of 149",
+        location: [-18.7669, 46.8691]
+      },
+      {
+        name: "Togo",
+        Happiness_Score: 4.107,
+        Rank: "136th of 149",
+        location: [8.6195, 0.8248]
+      },
+      {
+        name: "Zambia",
+        Happiness_Score: 4.073,
+        Rank: "137th of 149",
+        location: [-13.1339, 27.8493]
+      },
+      {
+        name: "Sierra Leone",
+        Happiness_Score: 3.849,
+        Rank: "138th of 149",
+        location: [8.4606, -11.7799]
+      },
+      {
+        name: "India",
+        Happiness_Score: 3.819,
+        Rank: "139th of 149",
+        location: [20.5937, 78.9629]
+      },
+      {
+        name: "Burundi",
+        Happiness_Score: 3.775,
+        Rank: "140th of 149",
+        location: [-3.3731, 29.9189]
+      },
+      {
+        name: "Yemen",
+        Happiness_Score: 3.658,
+        Rank: "141st of 149",
+        location: [15.5527, 48.5164]
+      },
+      {
+        name: "Tanzania",
+        Happiness_Score: 3.623,
+        Rank: "142nd of 149",
+        location: [-6.3690, 34.8888]
+      },
+      {
+        name: "Haiti",
+        Happiness_Score: 3.615,
+        Rank: "143nd of 149",
+        location: [18.9712, -72.2852]
+      },
+      {
+        name: "Malawi",
+        Happiness_Score: 3.600,
+        Rank: "144th of 149",
+        location: [-13.2543, 34.3015]
+      },
+      {
+        name: "Lesotho",
+        Happiness_Score: 3.512,
+        Rank: "145th of 149",
+        location: [-29.6100, 28.2336]
+      },
+      {
+        name: "Botswana",
+        Happiness_Score: 3.467,
+        Rank: "146th of 149",
+        location: [-22.3285, 24.6849]
+      },
+      {
+        name: "Rwanda",
+        Happiness_Score: 3.415,
+        Rank: "147th of 149",
+        location: [-1.9403, 29.8739]
+      },
+      {
+        name: "Zimbabwe",
+        Happiness_Score: 3.145,
+        Rank: "148th of 149",
+        location: [-19.0154, 29.1549]
+      },
+      {
+        name: "Afghanistan",
+        Happiness_Score: 2.523,
+        Rank: "149th of 149",
+        location: [33.9391, 67.7100]
       },
   ];
 
