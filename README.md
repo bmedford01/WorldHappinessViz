@@ -17,6 +17,7 @@
 ## Datasets:
 We utilized the following dataset related to 2021 World Happiness, procured from Kaggle. Includes a CSV file. 
 * https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021
+
 We utilized the following dataset to provide geo-coordinates for the countries in the above dataset.
 * https://www.kaggle.com/nikitagrec/world-capitals-gps 
 
