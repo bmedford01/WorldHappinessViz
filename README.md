@@ -7,22 +7,25 @@
 * Kelly Rose 
 
 ## Project Description/Outline:
-Your task is to tell a story with Data Visualization 
-* Visualization must include a Python Flask-powered API, HTML/CSS, JavaScript, and at least one database (SQL, MongoDB, SQLite, etc.)
-* Your project should fall into one of the below four tracks:
-* Include at least one JS library
-* Powered by a dataset with at least 100 records
-* Include some level of user-driven interaction
-* Final visualization will have at least three views
+
+* Visualization includes a Python Flask-powered API, HTML/CSS, JavaScript, and an SQL database. 
+* In addition to the above, we utilized: Heroku, Bootstrap, Plotly, Leaflet and D3
+* Powered by a dataset with over 100 records
+* Includes user-driven interaction via a drop down selection and interactive map.
+* Final product includes 7 visualizations. 
 
 ## Datasets:
-Use the following dataset related to 2021 World Happiness, procured from Kaggle. Includes CSV file. 
+We utilized the following dataset related to 2021 World Happiness, procured from Kaggle. Includes a CSV file. 
 * https://www.kaggle.com/ajaypalsinghlo/world-happiness-report-2021
+We utilized the following dataset to provide geo-coordinates for the countries in the above dataset.
+* https://www.kaggle.com/nikitagrec/world-capitals-gps 
+
 
 ## Rough Breakdown of Tasks
-* Import CSV into Python to generate flask-powered API
-* Create SQL database and load data 
-* Create HTML and CSS that will display a dashboard page with multiple charts that update from our dataset
-* Create Heatmap with JS Heatmap library
-* Create interactive dropdowns or input box to select different happiness factors (i.e. life expectancy) vs. happiness score and chart those on a scatter plot. 
-* Create bar chart with top 10 countries for a third visualization. 
+* Imported CSVs into Python to generate a flask-powered API
+* Created SQL database and loaded data. Joined the two datasets to include geo-coordinates. 
+* Created HTML and CSS that displays a live dashboard page with multiple charts that pull from our dataset. 
+* Created Leaflet map with markers and layers from the dataset. 
+* Created interactive dropdown to select a country and display the "happiness factor" scores for the respective country in a bar chart next to the average across all countries. 
+* Created scatter plots that display the "happiness factors" vs. the overall happiness score for each country. 
+* Rendered this page using Heroku to https://ygroza.com 
